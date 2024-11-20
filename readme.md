@@ -1,1 +1,11 @@
-docker run -d --restart=unless-stopped -p <YOUR_PORT>:3001 -v <YOUR_DIR OR VOLUME>:/app/data --name uptime-kuma louislam/uptime-kuma:1
+# Uptime Kuma
+
+# Usage
+
+Make sure `data` directory exists in the root directory.
+
+Run the command below to start the container:
+
+```bash
+docker compose up -d
+```
